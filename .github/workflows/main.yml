@@ -27,6 +27,6 @@ jobs:
 	 uses : docker /build-push-action@v6
 	 with :
 		context: .
-		tag:jainatul888/myimage01atul
+		tags:jainatul888/myimage01atul
 		push :true
 		
