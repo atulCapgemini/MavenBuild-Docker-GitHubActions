@@ -1,6 +1,7 @@
 name: CICDPipeline
 on : 
  push:
+  branches: ["main"]
 jobs:
  cicdDocker:
 	runs-on: ubuntu:latest
