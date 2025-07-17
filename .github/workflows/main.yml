@@ -1,9 +1,9 @@
-name: CI CD
+name: CICDPipeline
 on : 
  push:
 jobs:
  cicdDocker:
-	runs-on:ubuntu:latest
+	runs-on: ubuntu:latest
 	steps: 
 	-name :Checkout code
 	 uses :actions/checkout@v4
