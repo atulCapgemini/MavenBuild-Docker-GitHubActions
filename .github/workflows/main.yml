@@ -25,8 +25,7 @@ jobs:
 		password: 'Imatuljain@88'
 	-name:Build and Push Image
 	 uses : docker /build-push-action@v6
-	 with :
-		context: .
-		tags:jainatul888/myimage01atul
-		push :true
-		
+	 with:
+          context: .
+          push: true
+          tags: jainatul888/myimagefromgithub:latest
