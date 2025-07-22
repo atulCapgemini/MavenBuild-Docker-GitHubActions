@@ -1,5 +1,1 @@
-name: NotificationAlert
 
-on : 
- - workflow_dispatch
- - push
